@@ -13,7 +13,7 @@ public static void main(String[] args){
             count++;
         }
     }
-        if(count==0){ //count is set to zero because a prime number has only 2 factor 1 and number iteself
+        if(count==0){ //count is set to zero because a prime number has only 2 factor 1 and number iteself.
                       // we started out loop for 2 and end it till root n so, 1 and number itself will never appear!
             System.out.println("Is prime");
         }
