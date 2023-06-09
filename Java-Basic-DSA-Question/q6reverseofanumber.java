@@ -7,7 +7,7 @@ public class q6reverseofanumber {
         while(n!=0){
             int t=n%10;
             n=n/10;
-            System.out.println(t);
+            System.out.print(t);
         }
 
     }
