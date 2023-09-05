@@ -5,7 +5,7 @@ import java.util.Scanner;
         System.out.println("Enter Your number");
         int n=sc.nextInt();
 
-        for(int div=2; div*div<=n; div++){  // since div=root n. there n = div square.
+        for(int div=2; div*div<=n; div++){ 
             while(n%div==0){
                 n=n/div;
                 System.out.println(div);
