@@ -16,9 +16,9 @@ public static void main(String[] args){
 
     }
     int gcd=temp2;
-    System.out.println("GCD is equal to "+gcd);
+    System.out.println("GCD is equal to --> "+gcd);
     int lcm=(n1*n2)/gcd;
-    System.out.println("LCM is equal to "+lcm);
+    System.out.println("LCM is equal to --> "+lcm);
 
     }
     
