@@ -11,7 +11,7 @@ public class q11PythagorasTriplet {
         System.out.println("Enter your First Number");
         int c=sc.nextInt();
 
-        int max=a; //assumption
+        int max=a; 
         
         if(b>=max){
             max=b;    }
